@@ -1,0 +1,347 @@
+@media only screen {
+    /* Description section in About me component */
+    .anim-description-appear {
+        transition: transform 0.75s, opacity 1s;
+        opacity: 0;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        will-change: transform opacity;
+    }
+
+    .anim-description-appear-active {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+
+
+    /* Web Section in About me component - First card */
+    .anim-firstCard-appear {
+        transition: transform 750ms, opacity 750ms;
+        opacity: 0;
+        transform: translateX(500px);
+        -webkit-transform: translateX(500px);
+        will-change: transform opacity;
+    }
+
+    .anim-firstCard-appear-active {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+
+
+    /* Web Section in About me component - Second card */
+    .anim-secondCard-appear {
+        opacity: 0;
+        transition: transform 750ms, opacity 750ms;
+        transform: translateX(500px);
+        -webkit-transform: translateX(500px);
+        will-change: transform opacity;
+    }
+
+    .anim-secondCard-appear-active {
+        opacity: 1;
+        transition-delay: 0.075s;
+        transform: none;
+        -webkit-transform: none;
+    }
+
+
+
+
+    /* Header in Contacts component */
+    .anim_reach_out_heading-appear {
+        transition: transform 0.75s, opacity 1s;
+        opacity: 0;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        will-change: transform opacity;
+    }
+
+    .anim_reach_out_heading-appear-active {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+
+    /* First input in Contacts component */ 
+    .anim_reach_out_input_1-appear {
+        transition: transform 0.75s, opacity 1s;
+        opacity: 0;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        will-change: transform opacity;
+    }
+
+    .anim_reach_out_input_1-appear-active {
+        transition-delay: 0.1s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    /* Second input in Contacts component */
+    .anim_reach_out_input_2-appear {
+        transition: transform 0.75s, opacity 1s;
+        opacity: 0;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        will-change: transform opacity;
+    }
+
+    .anim_reach_out_input_2-appear-active {
+        transition-delay: 0.1s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    /* Textarea in Contacts component */
+    .anim_reach_out_textarea-appear {
+        transition: transform 0.75s, opacity 1s;
+        opacity: 0;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        will-change: transform opacity;
+    }
+
+    .anim_reach_out_textarea-appear-active {
+        transition-delay: 0.1s;
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+
+    /* Button in Contacts component */
+    .anim_reach_out_button-appear {
+        transition: transform 0.75s, opacity 1s;
+        opacity: 0;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        will-change: transform opacity;
+    }
+
+    .anim_reach_out_button-appear-active {
+        transition-delay: 0.2s;
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+
+
+    /* Heading in Projects component */
+    .anim_projects_heading-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_heading-appear-active {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+
+    /* Sites in Projects component */
+
+    /* First Row */
+    .anim_projects_firstProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(150%);
+        -webkit-transform: translateX(150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_firstProject-appear-active {
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    .anim_projects_secondProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(150%);
+        -webkit-transform: translateX(150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_secondProject-appear-active {
+        transition-delay: 0.15s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    .anim_projects_thirdProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(150%);
+        -webkit-transform: translateX(150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_thirdProject-appear-active {
+        transition-delay: 0.3s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    /* Second Row */
+    .anim_projects_fourthProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_fourthProject-appear-active {
+        transition-delay: 0.3s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    .anim_projects_fifthProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_fifthProject-appear-active {
+        transition-delay: 0.15s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    .anim_projects_sixthProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_sixthProject-appear-active {
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+}
+
+
+
+@media all and (max-width: 1320px) {
+    /* First Row */
+    .anim_projects_firstProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_firstProject-appear-active {
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+    .anim_projects_secondProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(150%);
+        -webkit-transform: translateX(150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_secondProject-appear-active {
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    /* Second Row */
+    .anim_projects_thirdProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_thirdProject-appear-active {
+        transition-delay: 0.15s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+    .anim_projects_fourthProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(150%);
+        -webkit-transform: translateX(150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_fourthProject-appear-active {
+        transition-delay: 0.15s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+
+    /* Third Row */
+    .anim_projects_fifthProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_fifthProject-appear-active {
+        transition-delay: 0.3s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+
+    .anim_projects_sixthProject-appear {
+        transition: transform 1.25s, opacity 1.25s;
+        opacity: 0;
+        transform: translateX(150%);
+        -webkit-transform: translateX(150%);
+        will-change: transform opacity;
+    }
+
+    .anim_projects_sixthProject-appear-active {
+        transition-delay: 0.3s;
+        opacity: 1;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+    }
+}
