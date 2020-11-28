@@ -11,9 +11,7 @@ export default function() {
         <div className="window">
             <BrowserRouter>
                 <button onClick={BurgerMenu} className="menu-btn">
-                    <div className="burger">
-
-                    </div>
+                    <div className="burger"></div>
                 </button>
                 <NavBar />
                 <Switch>

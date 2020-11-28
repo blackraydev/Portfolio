@@ -11,8 +11,8 @@ app.listen(port, () => {
 const transport = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-        user: "brwebagency@gmail.com",
-        pass: "5159081186hfvbkm"
+        user: "email@gmail.com",
+        pass: "pass"
     }
 });
 
